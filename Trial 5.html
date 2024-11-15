@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container-box{
+       background-color: #f9f7fe;
+       border: none;
+       color: rgba(39, 33,66, 0.4);
+       font-size: 16px;
+       padding: 30px;
+       width: 75%;
+       border-radius: 6px;
+    }
+    .container-box input[type=button]{
+     font-size: 16px;
+     background-color:#885df1;
+     padding: 20px;
+    border: none;
+     border-radius: 5px;
+     color: white;
+     border-color: white;
+     line-height: 1;
+    }
+    .container-box input[type=text]{
+        font-size: 16px;
+        padding:20px;
+     background-color:#f9f7fe;
+     width:75%;
+     border-color: white;
+     border-radius: 5px;
+     
+    }
+    body{
+        font-family: "roboto"sans-serif;
+        background-color:#f9f7fe; 
+        justify-items: center;
+    }
+    h1{
+        font-size: 100px;
+        padding: 30px;
+        border-bottom: 5px solid #f9f7fe;
+    }
+    footer{
+        border-top: 1px solid #f9f7fe;
+        text-align: center;
+        padding: 15px;
+        color: rgba(39, 33,66, 0.4);
+    }
+    main{
+        padding: 30px 0;
+  
+    }
+    .current-weather{
+        display:flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .current-temperature-value{
+        
+        font-size: 98px;
+        margin-right: 10px;
+        display: flex;
+        font-family: "Roboto",sans-serif;
+    }
+    .current-temperature-units{
+        font-size: 30px;
+        margin-right: 10px
+    }
+    .current-temperature-icon{
+        position: relative;
+        top: -100px;
+        font-size: 150px;
+        margin-right: 10px;
+        color: yellow;
+    }
+    .current-details{
+        color: rgba(39, 33,66, 0.4);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        
+        
+    } .current-details strong{
+        color: #f65282;
+        text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container-box">
+        <input type="text" placeholder="Enter a city ...">
+        <input type="button" name="search" value="search">
+    </div>
+    <div class="container">
+        <h1>Paris</h1>
+    <main>
+        <div class="current-weather">
+        <div class="current-details">Tuesday 07:45,moderate rain <br>Humidity: <strong>87%</strong>,
+            Wind: <strong>7.2km/h</strong></div> <div class="current-temperature-icon">☀</div> 
+            <div class="current-temperature-value"> <strong>24</strong>
+                 <div class="current-temperature-units">&deg;C</div></div>
+                </div>
+
+    </main>
+    <br>
+    <footer>
+        This project was coded by <span style="color: purple; text-decoration: underline;">Harun Were</span> and is <span style="color:
+         purple; text-decoration: underline;">on GitHub</span>
+        and <span style="color: purple; text-decoration: underline;">hosted on Netlify</span>.
+    </footer>
+</body>
+</html>
